@@ -1,0 +1,12 @@
+[package]
+name = "char_predictor"
+version = "0.1.0"
+authors = ["Will Kamovitch <wkamovitch@mediamath.com>"]
+description = "Tensorflow Character Prediction for the Web"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+tensorflow = "0.10.0"
+wasm-bindgen = "0.2"
